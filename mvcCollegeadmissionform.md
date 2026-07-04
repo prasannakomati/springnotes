@@ -124,7 +124,7 @@ public class CollegeRepository {
 The **index.jsp** file is the application's home page. It provides the user interface where users can enter their admission details.
 
 ```jsp
-<%-- <!DOCTYPE HTML>
+  <!DOCTYPE HTML>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -189,7 +189,7 @@ The **index.jsp** file is the application's home page. It provides the user inte
 
 </body>
 </html>
- --%>
+ 
 ```
 
 ---
@@ -200,7 +200,7 @@ The **index.jsp** file is the application's home page. It provides the user inte
 The **welcome.jsp** file displays the submitted admission details or a success message after the form has been processed.
 
 ```jsp
-<%--<%@ page language="java"
+ <%@ page language="java"
     contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -216,7 +216,7 @@ The **welcome.jsp** file displays the submitted admission details or a success m
  
     
 </body>
-</html> --%>
+</html>  
 ```
 
 ---

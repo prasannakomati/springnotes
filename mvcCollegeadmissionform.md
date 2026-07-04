@@ -227,7 +227,7 @@ The **welcome.jsp** file displays the submitted admission details or a success m
 The **SpringServlet.xml** file contains the Spring MVC configuration. It defines component scanning, the view resolver, and other required Spring beans.
 
 ```xml
-<!-- <?xml version="1.0" encoding="UTF-8"?>
+  <?xml version="1.0" encoding="UTF-8"?>
 
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:context="http://www.springframework.org/schema/context"
@@ -265,7 +265,7 @@ The **SpringServlet.xml** file contains the Spring MVC configuration. It defines
 
     <mvc:annotation-driven/>
 
-</beans> -->
+</beans>  
 ```
 
 ---
@@ -276,7 +276,7 @@ The **SpringServlet.xml** file contains the Spring MVC configuration. It defines
 The **web.xml** file is the deployment descriptor of the application. It configures the `DispatcherServlet` and maps incoming requests to the Spring MVC framework.
 
 ```xml
-<!--<?xml version="1.0" encoding="UTF-8"?>
+ <?xml version="1.0" encoding="UTF-8"?>
 
 <web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -305,7 +305,7 @@ The **web.xml** file is the deployment descriptor of the application. It configu
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
-</web-app>  -->
+</web-app>   
 ```
 
 ---
@@ -316,7 +316,7 @@ The **web.xml** file is the deployment descriptor of the application. It configu
 The **pom.xml** file is the Maven configuration file. It manages project dependencies, plugins, Java version, and build settings.
 
 ```xml
-<!-- <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>mvc</groupId>
   <artifactId>mvcCollegeAdmissionForm</artifactId>
@@ -363,7 +363,7 @@ The **pom.xml** file is the Maven configuration file. It manages project depende
         <finalName>mvcCollegeAdmissionForm</finalName>
     </build>
 
-</project> -->
+</project>  
 ```
 
 ---
